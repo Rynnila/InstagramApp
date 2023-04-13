@@ -1,0 +1,39 @@
+.Post {
+    width: 468px;
+    min-height: 555px;
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.Conteudo_Post {
+    width: 468px;
+    min-height: 468px;
+    display: block;
+    background: #EFEFEF;    
+}
+
+.Conteudo_Post img {
+    max-width: 100%;
+}
+
+.Cabecalho_Post{
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.Cabecalho_Post .imgAutor{
+    background-color: blue;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 1px 6px;
+}
+
+.Cabecalho_Post .imgAutor img{
+    width: 100%;
+    border-radius:50%;
+}
